@@ -1,0 +1,101 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #0073ea;
+  height: 100vh;
+  background-image: url("foto/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.foto {
+  margin-top: -300px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+}
+.whatsapp {
+  margin-top: -230px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+}
+.whatsapp:hover {
+  background-clip: #1a25ff;
+}
+.whatsapp:active {
+  transform: scale(1.5);
+}
+.tombol {
+  font-family: Arial black;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  background-clip: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.tombol:hover {
+  background-clip: #1a25ff;
+}
+.tombol:active {
+  transform: scale(0.9);
+}
+.tombol2 {
+  font-family: Arial black;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-clip: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.tombol3 {
+  font-family: Arial black;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-clip: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.tombol2:hover {
+  background-clip: #1a25ff;
+}
+.tombol2:active {
+  transform: scale(0.9);
+}
